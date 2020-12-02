@@ -14,46 +14,46 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="calc">
-            <h3>Calculator</h3>
+        
             <form onsubmit="return false">
+                <h3>Calculator</h3>
                 <table>
                     <tr>
                         <td colspan="4">
-                            <input class="form-control" id="result" name="result">
+                            <input class="inputs" id="result">
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="reset" class="btn btn-info" value="AC"></td>
-                        <td colspan="2"><input type="button" class="btn btn-info" value="=" onclick="solve()"></td>
+                        <td colspan="2"><input type="reset" class="inputs" value="AC"></td>
+                        <td colspan="2"><input type="button" class="inputs" value="=" onclick="solve()"></td>
                     </tr>
                     <tr>
-                        <td><input type="button" class="btn btn-warning" value="7" onclick="dis('7')"></td>
-                        <td><input type="button" class="btn btn-warning" value="8" onclick="dis('8')"></td>
-                        <td><input type="button" class="btn btn-warning" value="9" onclick="dis('9')"></td>
-                        <td><input type="button" class="btn btn-warning" value="/" onclick="dis('/')"></td>
+                        <td><input type="button"  value="7" class="inputs" onclick="dis('7')"></td>
+                        <td><input type="button"  value="8" class="inputs" onclick="dis('8')"></td>
+                        <td><input type="button"  value="9" class="inputs" onclick="dis('9')"></td>
+                        <td><input type="button"  value="/" class="inputs" onclick="dis('/')"></td>
                     </tr>
                     <tr>
-                        <td><input type="button" class="btn btn-warning" value="4" onclick="dis('4')"></td>
-                        <td><input type="button" class="btn btn-warning" value="5" onclick="dis('5')"></td>
-                        <td><input type="button" class="btn btn-warning" value="6" onclick="dis('6')"></td>
-                        <td><input type="button" class="btn btn-warning" value="*" onclick="dis('*')"></td>
+                        <td><input type="button"  value="4" class="inputs" onclick="dis('4')"></td>
+                        <td><input type="button"  value="5" class="inputs" onclick="dis('5')"></td>
+                        <td><input type="button"  value="6" class="inputs" onclick="dis('6')"></td>
+                        <td><input type="button"  value="*" class="inputs" onclick="dis('*')"></td>
                     </tr>
                     <tr>
-                        <td><input type="button" class="btn btn-warning" value="1" onclick="dis('1')"></td>
-                        <td><input type="button" class="btn btn-warning" value="2" onclick="dis('2')"></td>
-                        <td><input type="button" class="btn btn-warning" value="3" onclick="dis('3')"></td>
-                        <td><input type="button" class="btn btn-warning" value="-" onclick="dis('-')"></td>
+                        <td><input type="button"  value="1" class="inputs" onclick="dis('1')"></td>
+                        <td><input type="button"  value="2" class="inputs" onclick="dis('2')"></td>
+                        <td><input type="button"  value="3" class="inputs" onclick="dis('3')"></td>
+                        <td><input type="button"  value="-" class="inputs" onclick="dis('-')"></td>
                     </tr>
                     <tr>
-                        <td><input type="button" class="btn btn-warning" value="0" onclick="dis('0')"></td>
-                        <td><input type="button" class="btn btn-warning" value="00" onclick="dis('00')"></td>
-                        <td><input type="button" class="btn btn-warning" value="." onclick="dis('.')"></td>
-                        <td><input type="button" class="btn btn-warning" value="+" onclick="dis('+')"></td>
+                        <td><input type="button"  class="inputs" value="0" onclick="dis('0')"></td>
+                        <td><input type="button"  class="inputs" value="00" onclick="dis('00')"></td>
+                        <td><input type="button"  class="inputs" value="." onclick="dis('.')"></td>
+                        <td><input type="button"  class="inputs" value="+" onclick="dis('+')"></td>
                     </tr>
 
                 </table>
             </form>
-        </div>
+        
     </body>
 </html>
